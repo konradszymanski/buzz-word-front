@@ -9,28 +9,33 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 100% 100%;
 }
-
- 
- 
- section{
-  
+input{
+	width: 100%;
+}
+#signUp,
+#signIn{
+	padding: 2px 5px;
+	width: fit-content;
+}
+section{
    text-align: center;
    top: 100px;
- }
+}
 
- #bigHex{
+#bigHex{
    user-select:none
- }
+}
+.btnMenu{
+	width: 90px;
+}
 
- 
  .cellDiv{
     width:50px;
     height:40px;    
     fill:palegreen;
 }
-
 .cellLetter{
   position:relative;
   top: -50px;
@@ -41,17 +46,14 @@ body {
   height: 100px;
   margin: 5px;
 }
-
 #historyHolder {
   color: blue;
   background-color: grey;
   width: 25%;
 }
-
 .wordHistory {
   color: white;
 }
-
 /* The animation code */
 @keyframes fadeGreen {
   from {
