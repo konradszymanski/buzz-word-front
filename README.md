@@ -22,4 +22,4 @@ Although the online sessions are over, and Buzz-Word Game was a final project, I
 
 ## THANK YOU FOR VISIT
 ### and good luck!!!
-
+[TRY THIS GAME HERE!](https://konradszymanski.github.io/buzz-word-front/)
