@@ -337,4 +337,7 @@ function resetWord() {
     resetLetters()
     clearCells()
 }
-
+//HIDE INSTRUNCTION FUNTCION
+document.querySelector('.closeLayout').addEventListener('click', function(){
+    document.querySelector('.infoLayout').style.display = 'none';
+  });  
