@@ -342,5 +342,5 @@ const startingLayout = document.querySelector('.infoLayout')
 
 document.querySelector('.closeLayout').addEventListener('click', closeLayout);
 const closeLayout = () => {
-    startingLayout.style.display = 'none'
+    startingLayout.style.display = 'none';
 }
