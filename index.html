@@ -17,15 +17,15 @@
 <body>
     <div class='infoLayout'>
         <div class="instructionHeader">
-        <button class='closeLayout'>X</button>
         <h1>Buzz Word Game</h1>
+        <button class='closeLayout'>X</button>
         </div>
         <h2>INSTRUCTION</h2>
         <ul>
-            <li>Please Sign Up</li>
-            <li>and Sign In</li>
-            <li>If you are playing alone pick room: SINGLE</li>
-            <li>If you want to play with someone else, send this person this game, and choose the same room</li>
+            <li>Please Sign Up if you are first time.</li>
+            <li>Sign In.</li>
+            <li>If you are playing alone, pick room: SINGLE.</li>
+            <li>If you want to play with someone else, send this person this game, and choose the same room.</li>
             <li>The game started!</li>
             <li>Choose the buzz word and press SUBMIT!</li>
         </ul>
@@ -68,6 +68,14 @@
 		</div>
     	<div id="historyHolder"></div>
     </div>
+    <script>
+        const startingLayout = document.querySelector('.infoLayout')
+
+document.querySelector('.closeLayout').addEventListener('click', closeLayout);
+const closeLayout = () => {
+    startingLayout.style.display = 'none';
+}
+    </script>
 </body>
 
 </html>
