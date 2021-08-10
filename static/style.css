@@ -53,7 +53,9 @@ section{
  .cellDiv{
     width:50px;
     height:40px;    
-    fill:yellow;
+    fill:#7b4404;
+    color: white;
+
 }
 .cellLetter{
   position:relative;
@@ -77,6 +79,7 @@ section{
 }
 .wordHistory {
   color: black;
+  padding: 0px 10px;
 }
 #word{
   margin: 16px auto;
