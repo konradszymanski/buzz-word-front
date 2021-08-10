@@ -31,6 +31,8 @@ section{
 #submitReset{
   position: absolute;
   bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
 }
 #infoPanel{
   display: flex;
@@ -40,6 +42,7 @@ section{
    user-select:none;
    margin: 0 auto;
    min-width: 396px;
+   max-width: 600px;
 
 }
 .btnMenu{
