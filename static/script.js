@@ -115,7 +115,7 @@ async function getState() {
             else if(myRoom.roomState ==2){ //Game finished
 
                 let sorted = myRoom.players.sort((a,b)=>a.score<b.score)
-                infoPanel.innerHTML+=`<p>${sorted[0].name} Wins the GAME !</p></br><p>Scores were:-</p>`  //where/how to get the winning score ??
+                infoPanel.innerHTML+=`<p>${sorted[0].name} Wins the GAME !</p><br /><p>Scores were:-</p>`  //where/how to get the winning score ??
                 
                 sorted.forEach(p=>infoPanel.innerHTML += `<p>${p.name} - ${p.score}</p>`)
 
