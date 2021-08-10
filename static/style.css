@@ -91,7 +91,22 @@ section{
   position: absolute;
   left: 50%;
   top:50%;
-  
+  border: 2px solid black;
+  width: 50%;
+  max-width: 500px;
+  position: absolute;
+  background: beige;
+  z-index: 999;
+  border-radius: 20px;
+  padding: 20px;
+}
+.instructionHeader{
+  display: flex;
+  justify-content: space-between;
+}
+.closeLayout{
+  border: 2px solid black;
+  border-radius: 50%;
 }
 /* The animation code */
 @keyframes fadeGreen {

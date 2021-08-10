@@ -340,7 +340,7 @@ function resetWord() {
 
 const startingLayout = document.querySelector('.infoLayout')
 
-startingLayout.addEventListener('click', closeLayout);
+document.querySelector('.closeLayout').addEventListener('click', closeLayout);
 const closeLayout = () => {
     startingLayout.style.display = 'none'
 }
