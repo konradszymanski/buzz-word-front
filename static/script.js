@@ -30,6 +30,10 @@ const countDownLabel= document.getElementById('countDownLabel')
 const infoPanel=document.getElementById('infoPanel')
 //const bigHex = document.getElementById('bigHex')
 
+const signUpBar = document.getElementById('signUp');
+const signInBar = document.getElementById('signIn');
+
+
 const cells = document.querySelectorAll('.cellDiv');
 cells.forEach(c => {  c.addEventListener('click', () => cellClick(c)) })
 
@@ -196,7 +200,8 @@ async function signIn() {
 }
 
 function fillBoard(letters) {
-
+     signUpBar.style.display = 'none';
+ signInBar.style.display = 'none';
     for (let i = 0; i < letters.length; i++) {
 
         let id = 'l' + i
