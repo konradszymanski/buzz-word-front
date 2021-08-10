@@ -37,6 +37,7 @@ section{
 #infoPanel{
   display: flex;
   justify-content: center;
+  margin: 15px;
 }
 #bigHex{
    user-select:none;
@@ -75,7 +76,7 @@ section{
   padding: 10px;
 }
 .wordHistory {
-  color: white;
+  color: black;
 }
 /* The animation code */
 @keyframes fadeGreen {
@@ -130,7 +131,6 @@ transform: scale(1.1);
   position:relative;
   z-index:10;
   left: 50%;
-  transform: translate(-52%);
   color:black;
   font-size:100px;
   display:none;
