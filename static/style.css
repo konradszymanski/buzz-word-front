@@ -87,6 +87,12 @@ section{
   border-radius: 20px;
   height: 30px;
 }
+.infoLayout{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  
+}
 /* The animation code */
 @keyframes fadeGreen {
   from {

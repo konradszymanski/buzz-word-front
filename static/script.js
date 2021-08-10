@@ -337,3 +337,10 @@ function resetWord() {
     resetLetters()
     clearCells()
 }
+
+const startingLayout = document.querySelector('.infoLayout')
+
+startingLayout.addEventListener('click', closeLayout);
+const closeLayout = () => {
+    startingLayout.style.display = 'none'
+}
