@@ -68,12 +68,12 @@ section{
 #historyHolder {
   color: blue;
   background-color: beige;
-  width: 25%;
   position: absolute;
   right: 1px;
   top: 25%;
   border-radius: 20px 0 0 5px;
   padding: 10px;
+  text-align: center;
 }
 .wordHistory {
   color: black;
@@ -136,7 +136,15 @@ transform: scale(1.1);
   display:none;
 } /* initially hidden*/
 
-.locked{pointer-events: none; background-color:gray !important}
+.locked{
+  pointer-events: none; 
+  background-color:#715326;
+  animation: changeBg 1s infinite;
+}
+@keyframes changeBg {
+  from {background-color:#715326;}
+  to {background-color: #925c0b;}
+}
 
     /* links */
     /*BOX SHADOW GENERATOR  https://html-css-js.com/css/generator/box-shadow/ */
